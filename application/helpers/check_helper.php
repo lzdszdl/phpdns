@@ -1,6 +1,6 @@
 <?php
-    define("USER","xiaoz");                 //用户名
-    define("PASSWORD","xiaoz.me");  //密码
+    define("USER","ppx");                 //用户名
+    define("PASSWORD","ppxwo.com");  //密码
     define("SALT","phpdns");
 
     function check_host($host){
@@ -91,7 +91,7 @@
     //获取dnsmasq状态
     function dnscheck($ip){
         
-        $url = "https://api.xiaoz.top/tools/TcpCheck.php?port=53&ip=".$ip;
+        $url = "https://api.kar98k.in/tcp.php?port=53&ip=".$ip;
 
         $url = str_replace("\n","",$url);
 
